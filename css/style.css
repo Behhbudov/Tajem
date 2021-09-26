@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap');
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(134, 94, 94, 0.25);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(transparent, #44a8cc);
+}
 header {
     background: url('../img/headerbg.jpg') center/cover;
     min-height: 100vh;
