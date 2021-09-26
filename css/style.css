@@ -4,6 +4,10 @@
     border-radius: 5px;
     box-shadow: inset 0 0 10px rgba(134, 94, 94, 0.25);
 }
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(transparent, #fa7d24);
+}
 header {
     background: url('../img/headerbg.jpg') center/cover;
     min-height: 100vh;
